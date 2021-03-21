@@ -1,0 +1,12 @@
+div p {
+    background-color:sandybrown
+}
+div~p {
+    background-color:seagreen
+}
+div>p {
+    color:sienna
+}
+div+p {
+    color:lightgreen
+}

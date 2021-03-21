@@ -1,0 +1,15 @@
+li:first-child {
+    color:blue
+}
+li:last-child {
+    color:orange
+}
+li:nth-child(7n+10) {
+    background-color:cyan
+}
+li:nth-child(8) {
+    color:red
+}
+li:only-child {
+    color:lawngreen
+}

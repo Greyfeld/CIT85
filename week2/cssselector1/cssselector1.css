@@ -1,0 +1,15 @@
+a {
+    font-size:100px
+}
+a:link {
+    color:blue
+}
+a:visited {
+    color:darkorchid
+}
+a:hover {
+    color:darkturquoise
+}
+a:active {
+    color:yellow
+}

@@ -1,0 +1,45 @@
+/* specificity 1 */
+div, h1, p {
+    width:100%;
+    color:brown
+}
+/* specificity 1 */
+div {
+    height:120px;
+    border: 3px solid blue;
+}
+/* specificity 1 */
+h1 {
+    font-weight:1000;
+}
+/* specificity 1 */
+p {
+    font-family:'Lucida Sans';
+    font-weight:900;
+    color:darkred
+}
+/* specificity 10 */
+.inside {
+    color:salmon
+}
+/* specificity 2 */
+div p {
+    font-style: italic
+}
+/* specificity 11 */
+p:only-child {
+    font-weight:1000;
+    
+}
+/* specificity 100 */
+#im18 {
+    height:50px;
+    border:3px dotted red;
+    background-color:black
+}
+/* specificity 12 */
+div p:only-child {
+    color:white
+}
+
+
