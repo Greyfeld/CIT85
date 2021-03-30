@@ -1,0 +1,28 @@
+/* * {
+    border: 2px dotted hotpink;
+} */
+img {
+    margin: 0 auto;
+    display:block;
+    border-radius: 75%;
+    border:10px groove orange;
+}
+header {
+    font-family: serif;
+    font-weight: 900;
+}
+#firstHeader {
+    color:rgb(0, 110, 255);
+}
+#secondHeader{
+    color:red;
+}
+body {
+    width: 75%;
+    margin: 0 auto;
+    background-color:rgb(40, 209, 91);
+    border: 5px solid black;
+}
+html {
+    background-color:rgb(0, 110, 255);
+}
