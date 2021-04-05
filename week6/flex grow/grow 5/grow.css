@@ -1,0 +1,29 @@
+body {
+    width:50%;
+    height:400px;
+    display:flex;
+    flex-flow:row wrap;
+    margin:0 auto;
+    color:white;
+}
+.left {
+    background-color:blue;
+    flex-basis:30%;
+}
+section {
+    border:2px solid red;
+    flex-basis:70%;
+    box-sizing:border-box;
+    display:flex;
+    flex-flow:column wrap;
+}
+.inside {
+    flex-basis:50%;
+    box-sizing:border-box;
+}
+.top {
+    background-color:royalblue;
+}
+.bottom {
+    background-color:aquamarine;
+}

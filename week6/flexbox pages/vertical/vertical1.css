@@ -1,0 +1,14 @@
+body {
+    display:flex;
+    flex-flow:column wrap;
+    height:700px;
+    border:2px dashed hotpink;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+div {
+    width:100px;
+    height:100px;
+    background-color:aquamarine;
+    border:2px solid red;
+}

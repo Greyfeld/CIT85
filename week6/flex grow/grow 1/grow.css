@@ -1,0 +1,22 @@
+body {
+    display:flex;
+    flex-flow:row wrap;
+    border: 2px solid red;
+}
+div {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:salmon;
+    width:200px;
+    height:100px;
+    flex-grow:1;
+    margin: 20px;
+    text-align:center;
+    border: 1px solid black;
+    font-family:sans-serif;
+    font-weight:900;
+}
+#bigBoy {
+    flex-grow:2;
+}
