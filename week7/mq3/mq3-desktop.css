@@ -1,0 +1,19 @@
+body {
+    width:80%;
+    margin:20px auto;
+}
+nav {
+    width:15%;
+}
+ul {
+    flex-flow:column nowrap;
+    align-items:flex-start;
+    justify-items:flex-start;
+}
+li {
+    margin:10px 10px;
+}
+main {
+    width:85%;
+    padding:10px 10px;
+}

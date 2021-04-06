@@ -1,0 +1,17 @@
+body {
+    justify-content: center;
+    align-items: flex-start;
+
+}
+nav, main {
+    width:100%;
+    margin:auto;
+}
+ul {
+    flex-flow:row wrap;
+    justify-content:center;
+    align-content:flex-start;
+}
+li {
+    margin:10px 10px;
+}

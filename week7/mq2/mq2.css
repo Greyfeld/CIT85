@@ -1,0 +1,32 @@
+body {
+    height:700px;
+    border:2px dashed red;
+    display:flex;
+    flex-flow:row wrap;
+    box-sizing:border-box;
+    margin:auto;
+    align-content:flex-start;
+}
+div {
+    height:100px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+}
+.one {
+    background-color:salmon;
+}
+.two {
+    background-color:skyblue;
+}
+.three {
+    background-color:lightgreen;
+}
+.four {
+    background-color:yellow;
+}
+.five {
+    background-color:purple;
+}
