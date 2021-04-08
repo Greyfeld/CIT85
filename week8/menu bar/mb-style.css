@@ -1,0 +1,14 @@
+ul {
+    list-style:none;
+    background-color:deepskyblue;
+}
+a {
+    padding:25px 0;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    border-top: 2px solid rgba(255,255,255,0.3);
+}
+a:hover {
+    background-color:royalblue;
+}

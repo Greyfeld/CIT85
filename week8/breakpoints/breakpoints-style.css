@@ -1,0 +1,19 @@
+header {
+    background-color:salmon;
+}
+div {
+    background-color:deepskyblue;
+}
+.a1 {
+    background-color:yellow;
+}
+.a2 {
+    background-color:fuchsia;
+}
+footer {
+    background-color:skyblue;
+}
+header, p, aside, footer {
+    font-family:sans-serif;
+    font-weight:900;
+}

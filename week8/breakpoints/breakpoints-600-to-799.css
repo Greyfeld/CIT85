@@ -1,0 +1,14 @@
+body {
+    flex-flow:row wrap;
+    max-width:95%;
+    margin:0 auto;
+}
+header, div {
+    width:100%;
+}
+aside {
+    width: 50%;
+}
+footer {
+    width: 100%;
+}
