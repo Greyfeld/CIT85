@@ -1,0 +1,66 @@
+html, body, div {
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+body {
+    width:100vw;
+    height:100vh;
+    border:5px groove orangered;
+    position:static
+}
+.fixed {
+    background-color:cadetblue;
+    width: 200px;
+    height:200px;
+    border:1px solid black;
+}
+.absolute {
+    background-color:darkcyan;
+    border:1px solid crimson;
+    width:50px;
+    height:50px;
+}
+.fix1 {
+    align-self:flex-start;
+    justify-self:flex-start;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+.abs1 {
+    position:absolute;
+    right:10px;
+    bottom:20px;
+}
+.fix2 {
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+.abs2 {
+    position:absolute;
+    left:10px;
+    bottom:20px;
+}
+.fix3 {
+    position:absolute;
+    bottom:5px;
+    left:5px;
+}
+.abs3 {
+    position:absolute;
+    right:10px;
+    top:20px;
+}
+.fix4 {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+.abs4 {
+    position:absolute;
+    left:10px;
+    top:20px;
+} 
