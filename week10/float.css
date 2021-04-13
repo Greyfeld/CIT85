@@ -1,0 +1,23 @@
+html, body, div, img, p {
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+div {
+    border:1px solid red;
+    padding: 10px 10px;
+    overflow:auto;
+}
+p {
+    padding:10px 10px;
+}
+img {
+    margin: 20px;
+}
+#img1 {
+    float:right;
+}
+#img2 {
+    float:left;
+}
