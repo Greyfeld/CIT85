@@ -1,0 +1,39 @@
+html, body, section, div {
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+section {
+    height:200px;
+    width:100%;
+}
+div {
+    height:100%;
+    border:2px solid black;
+}
+#first {
+    position:absolute;
+    left:0px;
+    width:20%;
+    height:100%;
+    background-color:lightskyblue;
+}
+#second {
+    position:absolute;
+    right:0px;
+    width:80%;
+    background-color:lightgreen;
+}
+#s1 {
+    background-color:yellow;
+    border:10px solid blue;
+}
+#s2 {
+    border:10px solid green;
+    position:relative;
+}
+#s3 {
+    background-color:purple;
+    border:10px solid red;
+}

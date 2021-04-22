@@ -1,0 +1,40 @@
+html, body, section, div {
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+body {
+    display:flex;
+    flex-flow:row wrap;
+    height:600px;
+}
+section {
+    height:200px;
+    width:100%;
+}
+div {
+    height:100%;
+    border:2px solid black;
+}
+#first {
+    width:20%;
+    background-color:lightskyblue;
+}
+#second {
+    width:80%;
+    background-color:lightgreen;
+}
+#s1 {
+    background-color:yellow;
+    border:10px solid blue;
+}
+#s2 {
+    display:flex;
+    flex-flow:row wrap;
+    border:10px solid green;
+}
+#s3 {
+    background-color:purple;
+    border:10px solid red;
+}
