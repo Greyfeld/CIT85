@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+body {
+    /* removing vertical scroll */
+    overflow-y:hidden;
+}
+ul {
+    /* Set position on page */
+    position:fixed;
+    top:7rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width:20rem;
+    /* Setup flex */
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-content:center;
+    /* Set style attributes */
+    background-color: midnightblue;
+    box-shadow: .5px .5px 1px black;
+    border:1px solid gray;
+    /* Set font style attributes */
+    font-size:2rem;
+    color:white;
+}
+/* styling for header links */
+.headera {
+    padding:0rem 1rem;
+    color:white;
+    text-decoration:none;
+}
+.headera:hover {
+    background-color:blueviolet;
+}
+.container {
+    /* display settings for div container*/
+    position:relative;
+    display:flex;
+    flex-flow:row wrap;
+    align-content:center;
+    justify-content: center;
+    height:100vh;
+    border:3px solid hotpink;
+}
+span {
+    /* anchor tag location for bookmarks */
+    position:absolute;
+    top:-.4%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    visibility:hidden;
+}
+.shadowed {
+    /* div box styling */
+    height:200px;
+    width:200px;
+    background-color:black;
+}
+/* div box shadows */
+#one {
+    box-shadow: 15px 15px 5px red;
+}
+#two {
+    box-shadow: 15px 15px 5px orangered;
+}
+#three {
+    box-shadow: 15px 15px 5px orange;
+}
+#four {
+    box-shadow: 15px 15px 5px yellow;
+}
+#five {
+    box-shadow: 15px 15px 5px yellowgreen;
+}
+#six {
+    box-shadow: 15px 15px 5px green;
+}
+#seven {
+    box-shadow: 15px 15px 5px aqua;
+}
+#eight {
+    box-shadow: 15px 15px 5px blue;
+}
+#nine {
+    box-shadow: 15px 15px 5px indigo;
+}
+#ten {
+    box-shadow: 15px 15px 5px violet;
+}
+footer {
+    /* Set position on page */
+    position:fixed;
+    bottom:1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* Set style attributes */
+    width:10rem;
+    background-color: midnightblue;
+    border:1px solid gray;
+    box-shadow: .5px .5px 1px black;
+    /* Set font style attributes */
+    font-size:large;
+    color:white;
+}
