@@ -8,6 +8,41 @@ body {
     /* removing vertical scroll */
     overflow-y:hidden;
 }
+ul {
+    /* Set position on page */
+    position:fixed;
+    top:7rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width:20rem;
+    /* Setup flex */
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-content:center;
+    /* Set style attributes */
+    background-color: midnightblue;
+    box-shadow: .5px .5px 1px black;
+    border:1px solid gray;
+    /* Set font style attributes */
+    font-size:2rem;
+    color:white;
+}
+/* styling for header links */
+.headera {
+    padding:0rem 2rem;
+    color:white;
+    text-decoration:none;
+}
+#aone {
+    font-weight:900;
+}
+.headera:hover {
+    background-color:blueviolet;
+}
 .container {
     /* display settings for div container*/
     position:relative;

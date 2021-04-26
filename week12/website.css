@@ -33,9 +33,12 @@ ul {
 }
 /* styling for header links */
 .headera {
-    padding:0rem 1rem;
+    padding:0rem 2rem;
     color:white;
     text-decoration:none;
+}
+#atwo {
+    font-weight:900;
 }
 .headera:hover {
     background-color:blueviolet;
