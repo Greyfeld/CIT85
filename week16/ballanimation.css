@@ -21,7 +21,7 @@ div {
     top:0%;
     animation-name: location;
     animation-duration: 4000ms;
-    animation-timing-function:linear;
+    animation-timing-function:ease-in-out;
     animation-iteration-count: infinite;
     animation-play-state:running;
 }
